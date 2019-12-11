@@ -8,7 +8,6 @@
 | Regression to values between 0 and 1 | sigmoid | mse or binary_crossentropy |
 
 If you want to get each time the same result you need to add a random seed. See also [https://machinelearningmastery.com/reproducible-results-neural-networks-keras/](https://machinelearningmastery.com/reproducible-results-neural-networks-keras/).
-
 This can be done by just adding:
 ```python
 from numpy.random import seed
